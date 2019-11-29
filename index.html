@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Breakout Game</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+/* 
+        .row{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="row">
+            <video id="video" width="480" height="320"></video>
+            <canvas id="canvas" width="480" height="320"></canvas>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
